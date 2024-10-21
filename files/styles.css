@@ -1,0 +1,79 @@
+/* container for full landing page */
+#_next{
+    width: 1440px;
+    height: 8179.92px;
+}
+
+/* div containing the header data */
+.header_container{
+    width: inherit;
+    height: 91px;
+    border-bottom: 1px solid #F0F0F0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* header  */
+header.header_section{
+    /* width is set to full size to the div containg class header_container */
+    width: 100%;    
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* right side menu in the header */
+ul.header_contact_info{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px; /* Space between elements */
+    /* padding: 0; i will adjust it after completing the header depend on it  */
+}
+
+/* the div containing the svg of world and the en text */
+.language_svg{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* text in the div with class language_svg */
+li.lang_en{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #050038;
+    text-transform: uppercase;
+}
+
+/* style of anchor tag in li with class Signup_btn */
+.Signup_btn a {
+    border: 1px solid #4262FF;
+    border-radius: 24px;
+    background: #4262FF;
+    padding: 12px 22px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Login and Contact sales buttons */
+.header_contact_info .Login,
+.header_contact_info .Contact_sales {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #050038;
+    cursor: pointer;
+}
