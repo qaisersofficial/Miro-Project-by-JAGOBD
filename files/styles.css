@@ -3,7 +3,7 @@
     width: 1440px;
     height: 8179.92px;
 }
-
+/* ================HEADER================= */
 /* div containing the header data */
 .header_container{
     width: inherit;
@@ -117,3 +117,4 @@ li.Enterprise, li.Pricing {
     top: 32px;
     left: 125px;
 }
+/* ================HEADER COMPLETED HERE ================= */
