@@ -77,3 +77,37 @@ li.lang_en{
     color: #050038;
     cursor: pointer;
 }
+/* style for the menu contained in the second unordered list */
+ul.detail_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto; /* Center the list */
+}
+/* style for the list items  */
+.detail_section li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Space between each item */
+}
+/* setting up the font size, style and color of anchor tag in the list */
+.detail_section li a {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #050038;
+    text-decoration: none;
+    margin-right: 5px; /* Space between text and SVG */
+}
+/* add spaces between anchar tag and the svg's in the first, second and third item of list */
+li.same svg {
+    margin-left: 5px; /* Space between text and dropdown */
+}
+
+li.Enterprise, li.Pricing {
+    margin-right: 0; /* Remove extra margin for last items */
+} 
