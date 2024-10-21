@@ -111,3 +111,9 @@ li.same svg {
 li.Enterprise, li.Pricing {
     margin-right: 0; /* Remove extra margin for last items */
 } 
+ /* adjust the logo in the header   */
+.miro_logo{
+    position: absolute;
+    top: 32px;
+    left: 125px;
+}
