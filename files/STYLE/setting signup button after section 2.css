@@ -1,0 +1,15 @@
+.after_coll_btn_signup{
+    width: 178.22px;
+    height: 48px;
+    border-radius: 37px;
+    position: absolute;
+    top: 1401px;
+    left: 630.89px;
+    font-size: 25px;
+    margin: auto;
+    /* to center text in the button horizontally and vertically in the btn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+       

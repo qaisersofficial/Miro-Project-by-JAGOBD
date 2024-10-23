@@ -1,0 +1,34 @@
+/* This CSS file styles the "trusted_by" section, setting its dimensions and positioning it absolutely within its container. */
+section.trusted_by{
+    width: 1440px;
+    height: 284px;
+    position: absolute;
+    top: 589px;
+}
+/* This class styles the container within the "trusted_by" section, setting its dimensions and centering it horizontally. */
+.trusted_by_container{
+    width: 1120px;
+    height: 164px;
+    margin: auto;
+}
+/* This class styles the paragraph displaying the total number of users, setting its dimensions, font properties, and centering the text. */
+.trusted_by_container .total_users_para{
+    width: 199px;
+    height: 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 24px;
+    margin: auto;
+    text-align: center;
+    color:  #05003899;
+}
+/* This class styles the container holding the logos, setting its dimensions, positioning it relative to its container, and using flexbox to space the logos evenly. */
+.trusted_logo_container{
+    width: 1120px;
+    height: 92px;
+    position: relative;
+    top: 72px;
+    padding: 0px 0px 28px 0px;
+    display: flex;
+    justify-content: space-around;
+}

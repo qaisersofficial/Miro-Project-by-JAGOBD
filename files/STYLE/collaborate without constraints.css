@@ -1,0 +1,72 @@
+.section2{
+    /* border: 1px solid black; */
+    width: 1140px;
+    height: 476px;
+    position: absolute;
+    top: 897px;
+    left: 150px;
+}
+.section2 h2{
+    width: 1120px;
+    height: 168px;
+  
+    margin: 0;
+}
+.section2 h2 p{
+    width: 448px;
+    height: 168px;
+    position: absolute;
+    top: 28px;
+    left: 335.16px;
+    margin: auto;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.idea_logo{
+    width: 323px;
+    height: 323px;
+    position: relative;
+    top: -199px;
+    left: 528px;
+}
+.flex_container{
+    /* border: 1px dashed blue; */
+    width: 1121px;
+    height: 268px;
+    padding: 0px 10.14px 0px 10px;
+    display: flex;
+    gap: 20px;
+}
+div.details{
+    /* border: 1px solid blue; */
+    width: 315.95px;
+    height: 200px;
+    padding: 23px 22.39px 44px 24px;
+}
+.details h3{
+    height: 28px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin: 0;
+    color: #050038;
+}
+.details p{
+    width: 313.56px;
+    height: 144px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #05003899;
+}
+.details p span{
+    color: #4262FF;
+}
