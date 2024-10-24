@@ -1,0 +1,75 @@
+.built1-container{
+    width: 1120px;
+    height: 739.02px;
+    position: absolute;
+    top: 3325.98px;
+    left: 160px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.built1-container h1{
+    width: 582px;
+    height: 56px;
+    position: inherit;
+    top: 30px;
+    left: 30px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #050038;
+    margin: 0;
+}
+.link-container{
+    width: 1060px;
+    height: 48px;
+    position: inherit;
+    top: 100px;
+    left: 30px;
+    display: flex;
+    gap: 20px;
+}
+.link-container a{
+    height: 30px;
+    padding: 15px;
+    border-radius: 40px;
+    border: 1px solid #F2F2F2;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #050038;
+}
+.firstlink{
+    background-color: #F1F3FD;
+}
+.content-of-bulit1{
+    width: 1018px;
+    height: 517.02px;
+    position: absolute;
+    top: 180px;
+    left: 38px;
+    border: 1px dotted blue;
+    display: flex;
+}
+.content-b1{
+    width: 360px;
+    height: 517.02px;
+    border: 1px solid red;
+}
+.image-b1{
+    width: 657px;
+    height: 517.02px;
+    border: 1px solid red;
+}
+
+.image-b1 img{
+    width: inherit;
+}
