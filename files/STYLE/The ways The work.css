@@ -1,3 +1,52 @@
-.section5{
-    
+.section5 {
+    width: 1440px;
+    height: 500px;
+    position: absolute;
+    top: 2765.98px;
+    /* border: 1px solid black; */
+    background-image: url("../../images/The ways The work section 5 background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 55px;
+}
+.content_of_section5{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 215px;
+    position: relative;
+    top: 145px;
+    left: 738px;
+    text-align: center;
+}
+.content_of_section5 h3{
+    width: 107px;
+    height: 76px;
+    position: absolute;
+    top: 62px;
+    left: 247.23px;
+    margin: 0;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #050038;
+}
+.content_of_section5 p{
+    width: 363px;
+    height: 24px;
+    position: absolute;
+    top: 114px;
+    left: 142.2px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.content_of_section5 .section5btn{
+    position: absolute;
+    top: 171px;
+    left: 240.88px;
 }
