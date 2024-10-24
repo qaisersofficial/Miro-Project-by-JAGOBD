@@ -5,7 +5,7 @@
     top: 3325.98px;
     left: 160px;
     border-radius: 8px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .built1-container h1{
     width: 582px;
@@ -50,26 +50,68 @@
 .firstlink{
     background-color: #F1F3FD;
 }
+.link-container a:hover{
+    background-color: #F1F3FD;
+}
 .content-of-bulit1{
     width: 1018px;
     height: 517.02px;
     position: absolute;
     top: 180px;
     left: 38px;
-    border: 1px dotted blue;
+    /* border: 1px dotted blue; */
     display: flex;
 }
 .content-b1{
     width: 360px;
     height: 517.02px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .image-b1{
     width: 657px;
     height: 517.02px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image-b1 img{
     width: inherit;
+}
+.content-b1 h3{
+    width: 126.73px;
+    height: 22px;
+    position: absolute;
+    top: 31px;
+    left: 16px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #050038;
+}
+.content-b1 p{
+    width: 302.43px;
+    height: 118px;
+    position: absolute;
+    top: 79px;
+    left: 16px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #050038B2 ;
+}
+.content-b1 span{
+    width: 124.28px;
+    height: 22px;
+    position: absolute;
+    top: 232px;
+    left: 19px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4262FF;
 }
