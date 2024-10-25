@@ -76,3 +76,29 @@
     color: #05003899;
 
 }
+div.about-profile{
+    width: 287.95px;
+    height: 49px;
+    position: absolute;
+    top: 375px;
+    margin-left: 36px;
+    padding-right: 16.25px;
+    display: flex;
+    gap: 16px;
+    border: 1px solid black;
+}
+.photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid red;
+}
+.profile-photo{
+    width: 48px;
+    height: 48px;
+
+}
+.about-content{
+
+    border: 1px solid blue;
+}
