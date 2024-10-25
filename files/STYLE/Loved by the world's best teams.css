@@ -39,6 +39,10 @@
     background-color: white;
     text-decoration: none;
 }
+.section9 a:hover {
+    background-color: #4262FF;
+    color: white;
+}
 .information-container{
     width: 1100px;
     height: 460px;

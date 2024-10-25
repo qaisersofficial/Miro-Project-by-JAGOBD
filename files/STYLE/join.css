@@ -1,0 +1,67 @@
+.join-container{
+    width: 1120px;
+    height: 350px;
+    position: absolute;
+    top: 6834.92px;
+    left: 160px;
+    padding: 120px 20px;
+    border-radius: 16px ;
+    /* border: 1px solid #000; */
+    background: #050038;
+
+}
+.content-contain{
+    width: 1080px;
+    height: 208px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 50px;
+}
+.join-container h1{
+    width: 519px;
+    height: 56px;
+    position: relative;
+    left: 280.17px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.para-container{
+    width: 550px;
+    height: 48px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 273px;
+    left: 309px;
+}
+.para-container p,a{
+    /* border: 1px solid white; */
+    margin: 0;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF99;
+}
+.para-container a{
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF99;
+    text-align: center;
+    margin-left: 110px;
+}
+.adjustingLastBtn{
+    position: absolute;
+    top: 355px;
+    left: 517.88px;
+}
+.signup:hover{
+    color: #4262FF;
+    background-color: white;
+    border: 1px solid #4262FF;
+}
