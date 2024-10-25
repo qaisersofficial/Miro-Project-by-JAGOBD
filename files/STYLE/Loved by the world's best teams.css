@@ -1,0 +1,101 @@
+.section9{
+    width: 1120px;
+    height: 628px;
+    position: absolute;
+    top: 6086.92px;
+    left: 160px;
+    /* border: 1px solid black; */
+}
+.section9 h1 {
+    width: 724px;
+    height: 56px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #050038;
+    margin: auto;
+}
+.section9 a{
+    width: 215.69px;
+    height: 48px;
+    position: absolute;
+    top: 80px;
+    left: 418.66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 31.69px 14px 35px;
+    border-radius: 37px;
+    border: 1px solid #4262FF;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #4262FF;
+    background-color: white;
+    text-decoration: none;
+}
+.information-container{
+    width: 1100px;
+    height: 460px;
+    position: absolute;
+    top: 168px;
+    left: -1px;
+    padding: 0  10.14px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+
+.information-container .profile-container{
+    width: 359.95px;
+    height: 460px;  
+    /* border: 1px solid black; */
+    box-shadow: 0px 4px 12px 0px #05003814;
+    border-radius: 8px;
+}
+.svg-div{
+    width: 287.95px;
+    height: 61.7px;
+    position: relative;
+    top: 36px;
+    left: 36px;
+}
+.profile-container p{
+    width: 291.68px;
+    height: 192px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #05003899;
+
+}
+div.about-profile{
+    width: 287.95px;
+    height: 49px;
+    position: absolute;
+    top: 375px;
+    margin-left: 25px;
+    padding-right: 16.25px;
+    display: flex;
+    gap: 16px;
+    /* border: 1px solid black; */
+}
+.photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    /* border: 1px solid red; */
+}
+.profile-photo{
+    width: 48px;
+    height: 48px;
+
+}
