@@ -54,3 +54,8 @@
     line-height: 24px;
     color: #050038;
 }
+.grid-content-container{
+    width: 1140px;
+    height: 490.91px;
+    border: 1px solid black;
+}
