@@ -4,7 +4,7 @@
     position: absolute;
     top: 6086.92px;
     left: 160px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .section9 h1 {
     width: 724px;
@@ -49,14 +49,15 @@
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .information-container .profile-container{
     width: 359.95px;
     height: 460px;  
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-shadow: 0px 4px 12px 0px #05003814;
+    border-radius: 8px;
 }
 .svg-div{
     width: 287.95px;
@@ -81,24 +82,20 @@ div.about-profile{
     height: 49px;
     position: absolute;
     top: 375px;
-    margin-left: 36px;
+    margin-left: 25px;
     padding-right: 16.25px;
     display: flex;
     gap: 16px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .photo{
     width: 48px;
     height: 48px;
     border-radius: 24px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .profile-photo{
     width: 48px;
     height: 48px;
 
-}
-.about-content{
-
-    border: 1px solid blue;
 }
