@@ -1,4 +1,8 @@
 /* container for full landing page */
+body{
+    margin: 0;
+    padding: 0;
+}
 #_next{
     width: 1440px;
     height: 8179.92px;

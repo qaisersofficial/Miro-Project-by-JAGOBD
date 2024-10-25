@@ -1,0 +1,23 @@
+.trust-container{
+    width: 1440px;
+    height: 1042.02px;
+    position: absolute;
+    top: 4984.02px;
+    padding: 60px 0;
+
+}
+.trust-content{
+    width: 1219px;
+    height: 922.91px;
+    padding: 0 150px;
+    background-color: #FFD02F;
+}
+.next-div-container{
+    border: 1px solid black;
+    width: 1140px;
+    height: 680.91px;
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
