@@ -18,6 +18,7 @@
     />
     <!-- seprated css file for header (NAVBAR) -->
     <link rel="stylesheet" href="../files/STYLE/header.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <!-- initial seprated css file for Main -->
     <link rel="stylesheet" href="../files/STYLE/main.css" />
     <!-- link of section 2 css seprated file  -->
@@ -68,10 +69,11 @@
     <div id="_next">
       <!-- Header Container -->
       <div class="header_container">
-        <header class="header_section">
+        <!-- <header class="header_section"> -->
           <!-- Logo of the Miro Company -->
+          <ul class="miro_logo">
           <svg
-            class="miro_logo"
+            
             xmlns="http://www.w3.org/2000/svg"
             width="91"
             height="32"
@@ -92,8 +94,12 @@
               </clipPath>
             </defs>
           </svg>
+          </ul>
           <!-- unorder list for the links in the navbar -->
-          <ul class="detail_section">
+          <input type="checkbox" id="check">
+          <div class="menu">
+          <div class="detail_section">
+            <ul >
             <li class="same">
               <a href="#">Products</a>
               <!-- svg of dropdown -->
@@ -185,8 +191,10 @@
             <li class="Enterprise"><a href="#">Enterprise</a></li>
             <li class="Pricing"><a href="#">Pricing</a></li>
           </ul>
+        </div>
           <!-- first section of header ended  -->
-          <ul class="header_contact_info">
+        <div class="header_contact_info">
+          <ul >
             <!-- other part of navbar started here -->
             <div class="language_svg">
               <!-- svg of internet (world) -->
@@ -214,7 +222,11 @@
               <a class="signup" href="#">Sign up free&rarr; </a>
             </li>
           </ul>
-        </header>
+        </div>
+      </div>
+      <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+      <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+
       </div>
       <!-- Header Completed  -->
       <!-- Main Content of the project -->
