@@ -2,20 +2,12 @@ main{
     padding: 60px;
     border: 1px solid orange;
 }
-
-/* main div {
-    border: 1px solid red;
-} */
 .initial_form_container{
     width: 100%;
     display: flex;
     align-items: center;
     border: 1px solid grey;
     justify-content: space-around;
-}
-.form_desc{
-    /* height: 469px; */
-    /* width: 50%; */
 }
 .main_image img {
     width: 100%;
