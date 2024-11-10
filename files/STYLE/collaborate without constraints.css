@@ -1,23 +1,13 @@
 .section2{
-    /* border: 1px solid black; */
-    width: 1140px;
-    height: 476px;
-    position: absolute;
-    top: 897px;
-    left: 150px;
+    margin-top: 10%;
+    border: 1px solid red;
 }
 .section2 h2{
-    width: 1120px;
     height: 168px;
-  
     margin: 0;
 }
 .section2 h2 p{
     width: 448px;
-    height: 168px;
-    position: absolute;
-    top: 28px;
-    left: 335.16px;
     margin: auto;
     font-family: Inter;
     font-size: 48px;
@@ -27,28 +17,21 @@
     text-align: center;
 }
 .idea_logo{
-    width: 323px;
-    height: 323px;
+    width: fit-content;
     position: relative;
-    top: -199px;
-    left: 528px;
+    top: -200%;
+    left: 47%;
 }
 .flex_container{
-    /* border: 1px dashed blue; */
-    width: 1121px;
-    height: 268px;
-    padding: 0px 10.14px 0px 10px;
     display: flex;
     gap: 20px;
+    justify-content: space-evenly;
 }
-div.details{
-    /* border: 1px solid blue; */
-    width: 315.95px;
-    height: 200px;
-    padding: 23px 22.39px 44px 24px;
+.details {
+    width: 33%;
+    padding: 1%;
 }
 .details h3{
-    height: 28px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 700;
@@ -59,7 +42,7 @@ div.details{
     color: #050038;
 }
 .details p{
-    width: 313.56px;
+    width: 78%;
     height: 144px;
     font-family: Helvetica;
     font-weight: 400;
