@@ -8,3 +8,10 @@ body{
     height: 100%;
     border : 1px solid red;
 }
+@media (max-width: 611px) {
+    /* Added this  */
+    #_next{
+        width: 100%;
+        z-index: 1000; 
+     }
+}
