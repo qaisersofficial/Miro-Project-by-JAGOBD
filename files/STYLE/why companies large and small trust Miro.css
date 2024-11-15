@@ -31,9 +31,15 @@
     color: #050038;
 }
 .grid-content-container{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
+    align-items: center;
+}
+.grid-content-container div svg{
+    width: 100%;
+    height: auto;
+
 }
 .grid-content-container div p{
     width: 92%;

@@ -255,9 +255,8 @@ div.content-b1 h3,p{
 .yellow-header h1 {
     width: fit-content;
 }
-div.grid-content-container div svg{
-    width: 100%;
-    height: auto;
+.grid-content-container {
+    grid-template-columns: auto;
 }
 /* loved by the worlds best teams section */
 .section9 a{
@@ -265,15 +264,20 @@ div.grid-content-container div svg{
 } 
 .information-container {
     flex-direction: column;
+    gap: 15px;
 }
 .information-container .profile-container {
     width: fit-content;
     height: auto;
 }
-.svg-div svg {
-    width: 100%;
-    height: auto;
+div.about-profile {
+    margin-top: 0;
+    justify-content: flex-end;
+    gap: 10px;
 }
+.profile-container p {
+     height: fit-content;
+    }
 }
 @media  (min-width: 425px) and (max-width: 611px) {
     div.rating{

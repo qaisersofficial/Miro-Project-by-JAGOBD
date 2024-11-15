@@ -63,3 +63,9 @@
     
     }
 }
+@media  (min-width: 611px) and (max-width: 768px) {
+    .content_of_section5{
+        margin-top: 30%;
+    
+    }
+}

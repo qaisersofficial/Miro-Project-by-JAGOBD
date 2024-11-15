@@ -133,6 +133,113 @@
     .main_image {
         margin-top: 5%;
     }
+    /* collaborate without constraints section */
+    .section2 h2 {
+        margin: 0;
+        width: 100%;
+    }
+    .section2 h2 p {
+        margin-top: 0;
+    }
+    .flex_container{
+        flex-wrap: wrap;
+            gap: 15%;
+    justify-content: center;
+    }
+    .details h3 {
+        font-size: 22px;
+    }
+    .details p {
+        width: fit-content;
+        height:fit-content;
+        text-align: justify;
+        }
+        /* work together section */
+    section.section3 {
+        flex-direction: column;
+    }
+    .section3_details {
+        width: fit-content;
+    }
+    .section3_details p {
+        width: 80%;
+        margin: 0 10%;
+        text-align: justify;
+        }
+        /* connect your tools section */
+        .section4{
+            flex-direction: column ;
+            align-items: self-start;
+        }
+        .section4_details {
+            width: fit-content;
+        }
+        .section4_details h2 {
+            width: 100%;
+            line-height: 48px;
+        }
+        .section4_details p {
+            width: 90%;
+            padding: 2.5%;
+        }
+        /* built for the way you work */
+        .link-container {
+            flex-direction: column;
+        }
+        .content-b1 h3{
+            text-align: center;
+        }
+        .content-b1 p {
+            height:fit-content;
+            margin: 0;
+            }
+        .built2{
+            flex-direction: column;
+        }
+        .b2-container {
+            width: fit-content;
+        }
+        .logo-con {
+            margin-top: 8%;
+        }
+        /* why companies large and small trust miro section */
+        .trust-container {
+            width: calc(100% + 60px);
+            margin: 0 -30px;
+        }
+        .next-div-container {
+            padding: 60px 0px;
+        }
+        .yellow-header h1 {
+            width: fit-content;
+}
+.grid-content-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 15px;
+}
+.section9 a {
+    width: 40%;
+    height: auto;
+}
+.information-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.information-container .profile-container {
+    width: fit-content;
+    box-shadow: 0px 4px 12px 0px #05003814;
+    border-radius: 8px;
+}
+.profile-container p {
+    height: fit-content;
+
+}
+div.about-profile {
+    margin-top: 3%;
+    display: inline-block;
+}
 }
   /* mini laptops view */
 @media (min-width: 769px) and (max-width: 1153px){
