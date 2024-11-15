@@ -333,7 +333,7 @@
       }
   }
   /* the above code is cutted from  header.css and main.css files in which initially main and header is responsive */
-  @media (max-width:421px)
+  @media (max-width:611px)
   {
     /* trusted by section */
     .trusted_logo_container {
@@ -372,8 +372,94 @@
     margin-left: 2%;
     text-align: justify;
 }
+/* signup button */
 .after_coll_btn_signup{
     font-size: 10px;
 }
-  }
+/* Work together wherever you work section  */
+section.section3 {
+    flex-direction: column;
+}
+.section3_details{
+    width: 100%;
+}
+.section3_details h2{
+    width: 100%;
+}
+.section3_details p{
+    width: 100%;
+}
+/* Connect your tools, close your tabs section */
+.section4{
+    flex-direction: column;
+}
+.section4_details{
+    width: 100%;
+}
+.section4_details h2{
+    width: 100%;
+}
+.section4_details p{
+    width: 100%;
+}
+/* the way we work */
+  
+.section5{
+    height: 250px;
+}
+.content_of_section5{
+    margin-top: 33%;
+
+}
+.content_of_section5 h3 {
+    font-size: 14px;
+    line-height: 16px;
+}
+.content_of_section5 .section5btn {
+    margin-top: 1%;
+    padding: 1px;
+    font-size: 10px;
+    margin: 0;
+}
+.content_of_section5 p {
+    font-size: 7px;
+}
+/* built for the way you work */
+/* Basic styles */
+.dropdown {
+}
+
+.dropdown-button {
+    background-color:#4262FF ;
+    color: #f1f1f1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    display: block;
+
+    /* margin-left: 50%; */
+}
+
+/* Hide the links container by default */
+.link-container {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Display the links container when hovering over the dropdown */
+.dropdown:hover .link-container {
+    display: block;
+}
+div.content-b1 h3,p{
+    margin: 0;
+}
+.content-of-bulit1{
+    flex-direction: column;
+}
+}
   
