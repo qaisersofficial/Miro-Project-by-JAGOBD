@@ -1,0 +1,57 @@
+ /* mini laptops view */
+ @media (min-width: 769px) and (max-width: 1153px){
+    .menu{
+        justify-content: space-evenly;
+    }
+    main {
+        padding: 50px;
+    }
+    .initial_form_container {
+        width: 100%;
+        display: flex;
+        gap: 5%;
+    }
+    .form_desc {
+        width: 50%;
+    }
+    .form_desc h1{
+        width: 100%;
+        text-align: justify;
+        font-size: 30px;
+    }
+    .initial_para{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        margin: 0;
+    }
+    .signup_form {
+        width: 100%;
+    }
+    input[type=email] {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .set_signup_btn{
+        width: 25%;
+        font-size: 12px;
+        margin: auto;
+    }
+    .initial_form_para{
+        width: 100%;
+        margin: 0;
+    }
+    div.rating{
+        width: fit-content;
+    }
+    .rating .logos{
+        width: 50%;
+    }
+    .stars_container{
+        width: 50%;
+    }
+    .main_image {
+        width: 50%;
+    }
+}
