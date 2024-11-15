@@ -457,5 +457,28 @@ div.content-b1 h3,p{
 .content-of-bulit1{
     flex-direction: column;
 }
+/* why companies large and small trust MIRO section */
+.trust-container {
+    width: calc(100% + 20px);
+    margin: 0 -10px;
+}
+.yellow-header h1 {
+    width: fit-content;
+}
+div.grid-content-container div svg{
+    width: 100%;
+    height: auto;
+}
+/* loved by the worlds best teams section */
+.section9 a{
+    width: fit-content;
+} 
+.information-container {
+    flex-direction: column;
+}
+.information-container .profile-container {
+    width: fit-content;
+    height: auto;
+}
 }
   
