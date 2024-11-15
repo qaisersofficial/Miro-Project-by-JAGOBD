@@ -1,0 +1,193 @@
+/* Tablet View - width between 600px and 1153px for header navbar*/
+@media (min-width: 611px) and (max-width: 1153px) {
+    #_next {
+        width: 100%;
+        height: auto;
+    }
+    
+    .header_container {
+        flex-direction: column;
+        height: inherit;
+    }
+    
+    .miro_logo {
+       width: 100%;
+       padding: 0;
+     text-align: center;  
+    }
+    
+    /* Adjust menu layout */
+    .menu {
+        margin: auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .detail_section{
+        width: fit-content;
+    }
+    /* Header contact info section */
+    .header_contact_info {
+        width: fit-content;
+    }
+    
+    /* Adjust UL inside header_contact_info */
+    .header_contact_info ul {
+        gap: 5px;
+        margin: 0;
+    }
+
+    /* Detail section */
+    .detail_section {
+        width: fit-content;
+    }
+
+    .detail_section ul {
+        gap: 10px;
+    }
+    .same {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        
+    }
+    .detail_section ul li a{
+        font-size: 12px;
+    }
+    
+    /* Adjust buttons and text sizes */
+    .signup {
+        padding:5px;
+        font-size: 12px;
+    }
+
+    .Login,
+    .Contact_sales,
+    li.lang_en {
+        font-size: 10px;
+    }
+
+    /* Adjust spacing in language and other icons */
+    .language_svg {
+        gap: 2px;
+    }
+    svg.internet{
+        width: 15px;
+        height: 15px;
+    }
+}
+/* main section  tablet vie*/
+@media  (min-width: 611px) and (max-width: 768px) {
+    main {
+        padding: 30px;
+    }
+    .initial_form_container {
+        width: 100%;
+        display: block;
+        border: 1px solid red;
+    }
+    
+    .form_desc h1{
+        width: fit-content;
+    }
+    .initial_para{
+        width: 70%;
+        padding-left: 10px;
+        text-align: justify;
+    }
+    .signup_form {
+        width: 100%;
+        flex-direction: row;
+        gap: 5%;
+        padding: 0;
+    }
+    input[type=email]{
+        width: 35%;
+        /* margin-left: 10%; */
+        padding: 10px 20px;
+    }
+    .set_signup_btn{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .initial_form_para{
+        width: fit-content;
+        /* margin: 0; */
+
+    }
+    div.rating{
+        width: fit-content;
+        padding: 10px;
+        margin-top: 0;
+    }
+    .rating .logos{
+        width: 45%;
+    }
+    .stars_container{
+        width: 55%;
+    }
+    .main_image {
+        margin-top: 5%;
+    }
+}
+  /* mini laptops view */
+@media (min-width: 769px) and (max-width: 1153px){
+    .menu{
+        justify-content: space-evenly;
+    }
+    main {
+        padding: 50px;
+    }
+    .initial_form_container {
+        width: 100%;
+        display: flex;
+        gap: 5%;
+    }
+    .form_desc {
+        width: 50%;
+    }
+    .form_desc h1{
+        width: 100%;
+        text-align: justify;
+        font-size: 30px;
+    }
+    .initial_para{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        margin: 0;
+    }
+    .signup_form {
+        width: 100%;
+    }
+    input[type=email] {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .set_signup_btn{
+        width: 25%;
+        font-size: 12px;
+        margin: auto;
+    }
+    .initial_form_para{
+        width: 100%;
+        margin: 0;
+    }
+    div.rating{
+        width: fit-content;
+    }
+    .rating .logos{
+        width: 50%;
+    }
+    .stars_container{
+        width: 50%;
+    }
+    .main_image {
+        width: 50%;
+    }
+}
