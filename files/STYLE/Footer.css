@@ -90,3 +90,42 @@ ul {
     display: flex;
     gap: 12px;
 }
+@media (max-width:1168px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-container .footer-section{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-section .footer-section-content{
+        margin-top: 1%;
+    }
+    .footer-container h1{
+        font-size: 26px;
+        margin-top: 40px;
+    }
+    .footer-section-content .text-content{
+        text-align: center;
+    }
+    .text-content li a{
+        line-height: 20px;
+    }
+    .footer-portion2{
+        flex-direction: column;
+    }
+    .portion2-container ul{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer-svgs{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    /* flex-wrap: nowrap; */
+}
+.footer-svgs svg {
+    width: 100%;
+}
+}

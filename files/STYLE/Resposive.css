@@ -407,10 +407,6 @@ section.section3 {
 .section5{
     height: 250px;
 }
-.content_of_section5{
-    margin-top: 33%;
-
-}
 .content_of_section5 h3 {
     font-size: 14px;
     line-height: 16px;
@@ -480,5 +476,8 @@ div.grid-content-container div svg{
     width: fit-content;
     height: auto;
 }
+.svg-div svg {
+    width: 100%;
+    height: auto;
 }
-  
+}
