@@ -5,19 +5,15 @@
     background-image: url("../../images/The ways The work section 5 background.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 55px;
+    background-size: contain;
 }
 .content_of_section5 {
     border: 1px solid black;
-    width: 42%;
-    margin-top: 17%;
-    position: relative;
-    /* top: 35%; */
-    left: 55%;
+    margin-top: 15%;
+    margin-left: 50%;
     text-align: center;
 }
 .content_of_section5 h3 {
-    width: 25%;
     margin: auto;
     font-family: Inter;
     font-size: 22px;
