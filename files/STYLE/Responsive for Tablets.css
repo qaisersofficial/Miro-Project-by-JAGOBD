@@ -20,8 +20,7 @@
     .menu {
         margin: auto;
         width: 100%;
-        justify-content: space-between;
-    }
+        justify-content: space-around;    }
     .detail_section{
         width: fit-content;
     }
@@ -133,6 +132,11 @@
     .main_image {
         margin-top: 5%;
     }
+    /* trusted by 45M+ users section */
+    .trusted_logo_container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
     /* collaborate without constraints section */
     .section2 h2 {
         margin: 0;
@@ -186,6 +190,9 @@
         .link-container {
             flex-direction: column;
         }
+        .content-of-bulit1 {
+            align-items: center;
+        }
         .content-b1 h3{
             text-align: center;
         }
@@ -195,6 +202,7 @@
             }
         .built2{
             flex-direction: column;
+            align-items: start;
         }
         .b2-container {
             width: fit-content;
@@ -239,5 +247,9 @@
 div.about-profile {
     margin-top: 3%;
     display: inline-block;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 }
