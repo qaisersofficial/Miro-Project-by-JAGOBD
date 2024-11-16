@@ -1,52 +1,27 @@
 .trust-container{
-    width: 1440px;
-    height: 1042.02px;
-    position: absolute;
-    top: 4984.02px;
-    padding: 60px 0;
-
-}
-.trust-content{
-    width: 1219px;
-    height: 922.91px;
-    padding: 0 150px;
+    width: calc(100% + 120px);
+    margin: 0 -60px;
     background-color: #FFD02F;
 }
 .next-div-container{
-    /* border: 1px solid black; */
-    width: 1140px;
-    height: 680.91px;
     padding: 120px 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
 }
 .yellow-header{
-    width: 539px;
-    height: 152px;
-    padding: 0px 300px;
-    /* border: 1px solid firebrick; */
+    text-align: center;
 }
 .yellow-header h1{
-    width: 498px;
-    height: 112px;
+    width: 45%;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -1px;
     text-align: center;
-    margin: 0;
+    margin: auto;
 
  }
  .yellow-header a{
-    width: 284.77px;
-    height: 19px;
-    position: absolute;
-    top: 298px;
-    left: 552.61px;
-    /* border-bottom: 1px solid #050038; */
-    text-align: center;
+    border-bottom: 1px solid #050038;
     text-decoration: none;
     font-family: Inter;
     font-size: 18px;
@@ -55,30 +30,22 @@
     color: #050038;
 }
 .grid-content-container{
-    width: 1140px;
-    height: 490.91px;
-    /* border: 1px solid black; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
-    gap: 27px;
+    gap: 15px;
 }
-.grid-content-container div{
-    width: 359.95px;
-    height: 200.97px;
-    /* border: 1px solid black; */
+.grid-content-container div svg{
+    width: 100%;
+    height: auto;
+
 }
 .grid-content-container div p{
-    width: 332.97px;
-    height: 44px;
-    margin: auto;
+    width: 92%;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    /* border: 1px solid red; */
 }

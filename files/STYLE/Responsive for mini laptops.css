@@ -1,0 +1,138 @@
+ /* mini laptops view */
+ @media (min-width: 769px) and (max-width: 1168px){
+    .menu{
+        justify-content: space-evenly;
+    }
+    main {
+        padding: 50px;
+    }
+    .initial_form_container {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .form_desc {
+        width: 100%;
+    }
+    .form_desc h1{
+        width: 100%;
+        text-align: justify;
+        font-size: 30px;
+    }
+    .initial_para{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        margin: 0;
+    }
+    .signup_form {
+        width: 100%;
+    }
+    input[type=email] {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .set_signup_btn{
+        width: 25%;
+        font-size: 12px;
+        margin: auto;
+    }
+    .initial_form_para{
+        width: 100%;
+        margin: 0;
+    }
+    div.rating{
+        width: fit-content;
+        padding: 15px;
+    }
+    .rating .logos{
+        width: 50%;
+    }
+    .stars_container{
+        width: 50%;
+    }
+    /* Collaborate with constraints section */
+    .tag {
+        transform: rotate(10deg);
+    }
+    /* WORK TOGETHER, WHEREVER YOU WORK SECTION */
+    section.section3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3_details {
+        width: 100%;
+    }
+    .section3_details h2 {
+        width: fit-content;
+        font-size: 40px;
+    }
+    .section3_details p {
+        width: fit-content;
+    }
+    
+    /* connect your tools, close your tabs section */
+    .section4{
+     flex-direction: column;   
+    }
+    .section4_details {
+        width: 100%;
+    }
+    .section4_details h2 {
+        width: fit-content;
+    }
+    .section4_details p {
+        width: 100%;
+    }
+    /* Built for the way you work */
+    .link-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 25px;
+    }
+    /* Built for all kinds of teams */
+    .built2{
+        flex-direction: column-reverse;
+    }
+    .logo-con {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .trust-container {
+        width: calc(100% + 100px);
+        margin: 0 -50px;
+    }
+    .next-div-container {
+        padding: 80px 0px;
+    }
+    .yellow-header h1 {
+        width: fit-content;
+    }
+    .section9 a {
+        width: 33%;
+    }
+    .information-container .profile-container {
+        width: 30%;
+        height: 550px;
+    }
+    .profile-container p {
+        height: fit-content;
+    }
+    /* footer */
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: start;
+    }
+    .footer-portion2 {
+        border-top: 1px solid #9B99AF;
+        display: block;
+        }
+        .portion2-container ul {
+            justify-content: space-evenly;
+        }
+        .footer-svgs {
+            flex-direction: row;
+        }
+}
