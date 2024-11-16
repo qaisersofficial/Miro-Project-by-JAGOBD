@@ -5,7 +5,6 @@
 }
 .next-div-container{
     padding: 120px 0px;
-    border: 1px solid red;
 }
 .yellow-header{
     text-align: center;
@@ -35,6 +34,7 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 .grid-content-container div svg{
     width: 100%;

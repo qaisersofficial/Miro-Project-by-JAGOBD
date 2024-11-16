@@ -82,7 +82,6 @@
     .initial_form_container {
         width: 100%;
         display: block;
-        border: 1px solid red;
     }
     
     .form_desc h1{

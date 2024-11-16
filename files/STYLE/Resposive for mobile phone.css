@@ -2,7 +2,6 @@
     /* Added this  */
     #_next{
         width: 100%;
-        border: 1px solid red;
         z-index: 1000; 
      }
     .menu {

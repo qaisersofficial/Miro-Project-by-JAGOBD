@@ -1,12 +1,10 @@
 main{
     padding: 60px;
-    /* border: 1px solid orange; */
 }
 .initial_form_container{
     width: 100%;
     display: flex;
     align-items: center;
-    /* border: 1px solid grey; */
     justify-content: space-around;
 }
 .main_image img {
@@ -42,7 +40,6 @@ input[type=email], .set_signup_btn{
     height: 22px;
     padding: 10px 14px;
     border-radius: 25px;
-    /* border: 1px solid #9B99AF; */
     margin-bottom: 10px;
     
 }

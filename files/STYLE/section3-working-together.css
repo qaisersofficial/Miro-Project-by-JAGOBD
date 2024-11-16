@@ -1,5 +1,4 @@
 section.section3{
-    border: 1px solid blue;
     display: flex;
     gap: 20px;
 }

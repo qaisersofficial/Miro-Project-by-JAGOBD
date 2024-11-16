@@ -1,6 +1,5 @@
 .section2{
     margin-top: 10%;
-    border: 1px solid red;
 }
 .section2 h2{
     margin: auto;
@@ -59,7 +58,7 @@
 }
 .details p{
     width: 78%;
-    height: 144px;
+    /* height: 144px; */
     font-family: Helvetica;
     font-weight: 400;
     font-size: 18px;

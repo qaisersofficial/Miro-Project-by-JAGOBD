@@ -1,6 +1,6 @@
 .section5 {
     width: 100%;
-    border: 1px solid green;
+    border: 1px solid transparent;
     height: 500px;
     background-image: url("../../images/The ways The work section 5 background.png");
     background-repeat: no-repeat;
@@ -8,9 +8,8 @@
     background-size: contain;
 }
 .content_of_section5 {
-    border: 1px solid black;
-    margin-top: 15%;
-    margin-left: 50%;
+    margin-top: 12%;
+    margin-left: 42%;
     text-align: center;
 }
 .content_of_section5 h3 {
@@ -66,6 +65,12 @@
 @media  (min-width: 611px) and (max-width: 768px) {
     .content_of_section5{
         margin-top: 30%;
+    
+    }
+}
+@media  (min-width: 769px) and (max-width: 1168px) {
+    .content_of_section5{
+        margin-top: 18%;
     
     }
 }

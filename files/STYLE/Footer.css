@@ -2,11 +2,6 @@ footer {
     width: 100%;
     background: #050038;
 }
-
-.footer-content {
-    border: 1px solid red;
-}
-
 .footer-container {
     padding: 0;
     display: flex;
